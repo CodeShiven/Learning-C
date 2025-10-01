@@ -5,8 +5,12 @@ int main() {
     int a, b, c;
 
     //Ask the user to enter three numbers
-    cout << "Enter three numbers: ";
-    cin >> a >> b >> c;
+    cout << "Enter a: ";
+    cin >> a;
+    cout << "Enter b: ";
+    cin >> b;
+    cout << "Enter c: ";
+    cin >>c;
 
     //Assume the first number is the largest
     int largest = a;
