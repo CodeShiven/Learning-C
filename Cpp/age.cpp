@@ -7,6 +7,7 @@ int main()
 int age;
 cout<<"Enter age:- ";
 cin>> age;
+//just experimenting with if!
 if (age >= 81) {
 cout<<"Maybe you are dead :("<<endl;  
 }
