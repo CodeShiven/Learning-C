@@ -1,13 +1,16 @@
 # include <iostream>
 using namespace std;
 
-int main() {
+int main() 
+{
 
 int age;
 cout<<"Enter age:- ";
 cin>> age;
-
-if (age >= 18) {
+if (age >= 81) {
+cout<<"Maybe you are dead :("<<endl;  
+}
+if (age >= 18 && age <= 80) {
 cout<<"You are an adult and you can vote and drive also u can drink a little :)"<<endl;
 }
 if (age < 18 && age > 12) {
