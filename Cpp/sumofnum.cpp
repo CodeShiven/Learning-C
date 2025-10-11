@@ -10,7 +10,7 @@ cin>>n;
 int i = 1;     //we took i = 1 it will add after every count eg. i+1=2,i+2=3....so on. 
 int sum = 0;            // sum will be zero before user's input so we'll take it as 0;
 
-while (i<=n) {     // 1<= n ; n = user's input;  
+while (i <= n) {     // 1<= n ; n = user's input;  
     sum=sum+i;    // 0 = 0 + 1;    
     i = i+1;     // 1 = 1 + 1;  
 }
