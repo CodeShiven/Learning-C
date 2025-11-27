@@ -12,21 +12,18 @@ int main() {
     cout << "Enter c: ";
     cin >>c;
 
-    //Assume the first number is the largest
-    int largest = a;
-
-    //Compare the second number with the current largest
-    if (b > largest) {
-        largest = b;
-    }
-
-    //Compare the third number with the current largest
-    if (c > largest) {
-        largest = c;
-    }
-
-    //Print the largest number
-    cout << "The largest number is: " << largest << endl;
+    if (a >= b) 
+        if (a >= c)
+        cout<<"a is greatest";
+        else
+        cout<<"c is greatest";
+    
+    else 
+        if (b >= c)
+        cout<<"b is greatest";
+        else
+        cout<<"c is greatest";
+    
 
     return 0;
 }
