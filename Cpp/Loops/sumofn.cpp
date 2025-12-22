@@ -14,7 +14,7 @@ while (i <= n){
 sum= sum+i;
 i++;
 }
-cout<<sum;
+cout<<"The Sum is: "<<sum;
 
 return 0;
 }
