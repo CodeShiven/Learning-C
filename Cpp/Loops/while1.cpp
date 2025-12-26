@@ -5,7 +5,7 @@ int main () {
 
 int n;             
 cout<<"Enter a number:"<<endl;   // this part will give user's input 
-cin>> n;                        // 
+cin>> n;                        
 
 int i = 1;                   
 
