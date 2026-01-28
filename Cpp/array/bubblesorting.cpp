@@ -20,7 +20,7 @@ void printArr(int arr[], int n){
     }
     cout << endl;
 }
-int main(){
+int main(){ 
 
 int n=6;
 int arr[]={7,4,8,1,3,2};
