@@ -2,7 +2,7 @@
 using namespace std;
 
 int binarySearch(int arr[],int tar,int n){ // one array, one target, n- size of array
-    int st=0, end=n-1;     
+    int st=0, end=n-1;      
     while (st <= end){ 
         int mid= (st + end) /2;
     
